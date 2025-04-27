@@ -20,6 +20,7 @@ export default defineConfig({
     million.vite({ mode: "preact" })
   ],
   server: {
+    port: 8080,
     headers: {
       "X-Frame-Options": "SAMEORIGIN"
     },
